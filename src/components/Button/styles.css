@@ -1,0 +1,14 @@
+.button{
+    width: 100%;
+    background: darkblue;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer; /* faz a setinha do mouse virar uma maozinha ao passar por cima do elemento */
+}
+
+/* style aplicado ao button quando a propriedade disabled for true */
+.button:disabled{
+    background: #888;
+    cursor: not-allowed; /* faz a setinha do mouse virar um circulo riscado (proibido) */
+}
